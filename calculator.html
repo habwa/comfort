@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+            <div class="parent">
+            <h1>CALCULATOR</h1>
+            <div class="div1">
+                <button  onclick="oda(this)"class="button"></button>
+                <button onclick="oda(this)"class="button"></button>
+                <button onclick="oda(this)"class="button"></button>
+                <button onclick="oda(this)"class="button"></button>
+                <button onclick="oda(this)"class="button"></button>
+                <button onclick="oda(this)"class="button"></button>
+                <button onclick="oda(this)"class="button"></button>
+                <button onclick="oda(this)"class="button"></button>
+                <button onclick="oda(this)"class="button"></button>
+                <button onclick="oda(this)"class="button"></button>
+            </div>
+            <div class="div2">
+                <button onclick="operation(this)" class="button1">+</button>
+                <button  onclick="operation(this)"class="button1">-</button>
+                <button  onclick="operation(this)"class="button1">*</button>
+                <button  onclick="operation(this)"class="button1">/</button>
+                <button onmouseover="comfort()"  onclick="result()" class="button1">=</button>
+                <button onclick="clr()" class="button1" >clear</button>
+                
+
+              
+            </div>
+            <div class="div3">
+                <div class="child1"> 
+                    <p id="input" class="plane"></p>
+                </div>
+                <div class="child2">
+                    <p id="output" class="plane"></p>
+
+                </div>
+            </div>
+        </div>
+        <script src="calculator.js"></script>
+        </body>
+        </form>
+</html>
